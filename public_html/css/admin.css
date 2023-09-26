@@ -1,0 +1,36 @@
+.content-wrapper > .content {
+    padding: 0 1rem;
+    padding-bottom: 1em;
+}
+.alert-success.light-green {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+.deletion-form {
+    display: inline;
+}
+.orange {
+    color: coral;
+}
+.font-14 {
+    font-size: 13px;
+}
+li.breadcrumb-item {
+    list-style: none;
+    padding-left: 13px;
+}
+.image-preview img {
+    width: 200px;
+    height: 164px;
+    object-fit: cover;
+    margin-bottom: 23px;
+}
+.form-check-label {
+    margin-bottom: 10px;
+}
+.main-header .navbar-nav .right {
+    position: absolute;
+    right: 1rem;
+    top: 0.8rem;
+}
