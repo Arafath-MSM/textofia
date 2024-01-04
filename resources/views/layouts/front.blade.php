@@ -97,11 +97,12 @@
                                     </div>
                                 </div>
                                 <div class="drop-para d-flex">
-                                    <div class="para first-para">
-                                        <a href="{{ route('about-us') }}"
-                                            class="@if (Route::is('about-us')) active @endif">About →</a>
-                                        <p>We are passionate about the solutions we create</p>
-                                    </div>
+                                    <a href="{{ route('about-us') }}" class="@if (Route::is('about-us')) active @endif">
+                                        <div class="para first-para">
+                                            <span>About →</span>
+                                            <p>We are passionate about the solutions we create</p>
+                                        </div>
+                                    </a>
 
                                     {{-- <div class="para d-none">
                                         <a href="{{ route('news') }}"
@@ -109,18 +110,20 @@
                                         <p>Generative AI for drafting contracts and faster contract reviews</p>
                                     </div> --}}
 
-                                    <div class="para">
-                                        <a href="{{ route('team') }}"
-                                            class="@if (Route::is('team')) active @endif">Team →</a>
-                                        <p>We are a team of visionaries, scientists and engineers that drive value</p>
-                                    </div>
+                                    <a href="{{ route('team') }}" class="@if (Route::is('team')) active @endif">
+                                        <div class="para">
+                                            <span>Team →</span>
+                                            <p>We are a team of visionaries, scientists and engineers that drive value</p>
+                                        </div>
+                                    </a>
 
-                                    <div class="para">
-                                        <a href="{{ route('careers') }}"
-                                            class="@if (Route::is('careers')) active @endif">Careers →</a>
-                                        <p>View career openings and explore remote-friendly, flexible
-                                            opportunities</p>
-                                    </div>
+                                    <a href="{{ route('careers') }}" class="@if (Route::is('careers')) active @endif">
+                                        <div class="para">
+                                            <span>Careers →</span>
+                                            <p>View career openings and explore remote-friendly, flexible
+                                                opportunities</p>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>

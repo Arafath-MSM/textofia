@@ -98,10 +98,10 @@ hr {
 .navbar .nav-home {
     margin-left: 0 !important;
 }
-
+/*
 .navbar .dropdown-mega-content a:hover {
     color: #0066ff !important;
-}
+}*/
 
 .navbar .login-btn button {
     background: #151b25;
@@ -273,7 +273,10 @@ hr {
 
 .dropdown-mega-content .heading {
     height: 10.9375rem;
-    background: #454a52;
+    background-image: linear-gradient(to right, #0067FE, #5398FD);
+    background-image: -webkit-linear-gradient(left, #0067FE, #5398FD);
+    background-image: -moz-linear-gradient(left, #0067FE, #5398FD);
+    background-image: -o-linear-gradient(left, #0067FE, #5398FD);
 }
 
 .dropdown-mega-content .heading .head h1 {
@@ -313,7 +316,11 @@ hr {
     margin-left: 0;
 }
 
-.dropdown-mega-content .drop-para .para a {
+.dropdown-mega-content .drop-para a{
+    padding: 8px;
+}
+
+.dropdown-mega-content .drop-para a .para span, .dropdown-mega-content .drop-para a {
     margin: 0;
     font-style: normal;
     font-weight: 400;
@@ -331,6 +338,16 @@ hr {
     line-height: 0.83125rem;
     color: #444444;
     padding-top: 1.3125rem;
+}
+
+.drop-para a:hover {
+    background-color: #1868E5;
+    color: #fff;
+}
+
+.drop-para a:hover .para span,
+.drop-para a:hover .para p {
+    color: #fff;
 }
 
 .what-we-do .content {
