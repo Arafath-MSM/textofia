@@ -311,10 +311,10 @@ hr {
 .dropdown-mega-content .drop-para .para {
     margin-left: 1.5rem;
 }
-
+/*
 .dropdown-mega-content .drop-para .first-para {
     margin-left: 0;
-}
+}*/
 
 .dropdown-mega-content .drop-para a{
     padding: 8px;
@@ -343,6 +343,15 @@ hr {
 .drop-para a:hover {
     background-color: #1868E5;
     color: #fff;
+}
+
+.drop-para .active {
+    background-color: #1868E5;
+    color: #fff;
+}
+
+.drop-para .active .para span, .drop-para .active .para p {
+    color: #fff !important;
 }
 
 .drop-para a:hover .para span,
