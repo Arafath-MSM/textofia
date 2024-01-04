@@ -18,7 +18,7 @@
     <!-- CSS
     ================================================== -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{ asset('front/css/style.css') }}?v=2.55">
+    <link rel="stylesheet" href="{{ asset('front/css/style.css') }}?v=3.25">
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -189,7 +189,7 @@
                                     </div>
                                 </div>
                                 <div class="drop-para d-flex">
-                                    <a href="{{ route('solutions', 'legal-document-analytics') }}" class="@if (Route::is('solutions/legal-document-analytics')) active @endif">
+                                    <a href="{{ route('solutions', 'legal-document-analytics') }}" class="@if (Request::is('solutions/legal-document-analytics')) active @endif">
                                         <div class="para  first-para">
                                             <span>Legal Document
                                                 Analytics →</span>
@@ -198,7 +198,7 @@
                                         </div>
                                     </a>
 
-                                    <a href="{{ route('solutions', 'financial-data-analytics') }}" class="@if (Route::is('solutions/financial-data-analytics')) active @endif">
+                                    <a href="{{ route('solutions', 'financial-data-analytics') }}" class="@if (Request::is('solutions/financial-data-analytics')) active @endif">
                                         <div class="para">
                                             <span>Financial Data
                                                 Analytics →</span>
@@ -207,7 +207,7 @@
                                         </div>
                                     </a>
 
-                                    <a href="{{ route('solutions', 'news-media-intelligence') }}" class="@if (Route::is('solutions/news-media-intelligence')) active @endif">
+                                    <a href="{{ route('solutions', 'news-media-intelligence') }}" class="@if (Request::is('solutions/news-media-intelligence')) active @endif">
                                         <div class="para">
                                             <span>News Media
                                                 Intelligence →</span>
