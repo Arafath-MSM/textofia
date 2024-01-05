@@ -4450,7 +4450,7 @@ hr {
 
     .dropdown-mega-content .drop-para .first-para {
         margin-left: 0;
-        width: 60%;
+        /* width: 60%; */
         max-width: 400px;
     }
 
