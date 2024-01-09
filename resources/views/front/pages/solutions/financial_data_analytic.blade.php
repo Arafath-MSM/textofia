@@ -4,7 +4,7 @@
     <section
         class="textofia-banner textofia-banner3 textofia-banner6 d-flex justify-content-center align-items-center flex-column">
         <div class="head text-center">
-            <h1>Financial Data Analytics</h1>
+            <h1>Customised Large Language Models (LLMs)</h1>
         </div>
         <div class="scroll text-center">
             <p>scroll down to see more details.</p>
@@ -20,12 +20,14 @@
                 <div class="col-md-6">
                     <div class="head">
                         <h2 class="d-none">What is</h2>
-                        <h1 class="d-none">Financial Data Analytics</h1>
-                        <p>Large amounts of information is a known issue in the financial services
-                            industry. </p><p>Our NLP models can intent parse financial text, enrich content through
-                            information extraction and analyse sentiment of corporate documents and news
-                            feeds, tag unstructured data facilitates searching across thousands of digital
-                            documents</p>
+                        <h1 class="d-none">Customised Large Language Models (LLMs) </h1>
+                        <p>
+Designing, constructing, and integrating Custom Large Language Models can be a 
+complex process. We assist you in making informed technical choices, crafting 
+an optimal Custom LLM solution, and seamlessly integrating it into your business 
+workflows. Initially, we focus on comprehending the unique business use case for 
+your Large Language Model (LLM). Further, we delve into your available data, 
+assessing what resources are available to feed into the LLM.</p>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -51,36 +53,29 @@
                     <div class="Key-content-details">
                         <div class="head">
                             <div class="heading">
-                                <h2>Financial Data Analytics</h2>
+                                <h2>Customised Large Language Models (LLMs)</h2>
                                 <h1>Key Features</h1>
                             </div>
                         </div>
                         <div class="key-content">
                             <div class="para">
-                                <h6>Financial topic detection</h6>
-                                <p>Analyzing text data to identify emerging financial topics in order to identify rising and
-                                    falling financial market trends.</p>
+                                <h6>LLM Design</h6>
+                                <p>We design the LLM architecture and build a data pipeline according to data 
+preprocessing needs. This will include specific Retrieval Augmentation Generation 
+(RAG) pipelines to finetune the LLM considering performance, data availability and 
+system integration requirements.</p>
                             </div>
 
                             <div class="para">
-                                <h6>Analyse regulatory filings</h6>
-                                <p>Fast-track the review of regulatory documents to capture a more complete landscape in
-                                    Stock analysis
-                                    and Investor relations</p>
+                                <h6>Customised LLM solution</h6>
+                                <p>We train, fine tune, parameter fine tune, or context learn the model to build the 
+solution and carry out prompt tuning techniques to develop the customised solution.</p>
                             </div>
 
                             <div class="para">
-                                <h6>Risk and compliance</h6>
-                                <p>Identify early warning signals to uncover and mitigate the risk in your blind spots by
-                                    finding insights that
-                                    move markets</p>
-                            </div>
-
-                            <div class="para">
-                                <h6>Financial knowledge graph analysis</h6>
-                                <p>Build your enterprise solutions on top of our Financial knowledge graph, to help organise
-                                    data, detect
-                                    financial crime and predict investor relations. </p>
+                                <h6>Integrate solutions in workflows</h6>
+                                <p>We would choose the right infrastructure between cloud, on premise and hybrid, and 
+integrate the custom LLM solution back into your business</p>
                             </div>
 
                         </div>

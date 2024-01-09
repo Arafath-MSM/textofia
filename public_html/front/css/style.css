@@ -81,6 +81,7 @@ hr {
     line-height: 0.83125rem;
     color: #000712 !important;
     display: block;
+    
 }
 
 .navbar .nav-link {
@@ -291,7 +292,7 @@ hr {
 }
 
 .dropdown-mega-content .heading .head p {
-    width: 20.34375rem;
+    width: 23rem;
     font-style: normal;
     font-weight: 400;
     font-size: 0.875rem;
@@ -324,8 +325,8 @@ hr {
     margin: 0;
     font-style: normal;
     font-weight: 400;
-    font-size: 1.2rem;
-    line-height: 1.05rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
     color: #000712;
     text-decoration: none;
 }
@@ -3332,6 +3333,7 @@ hr {
         display: flex;
         justify-content: center;
         align-items: center;
+
     }
 
     .navbar .nav-link:hover {
@@ -4342,6 +4344,7 @@ hr {
         margin-left: 3.125rem;
         font-size: 1rem;
         line-height: 1.1875rem;
+        width: 33%;
     }
 
     .navbar .nav-link {
@@ -4430,12 +4433,13 @@ hr {
     }
 
     .dropdown-mega-content .drop-para {
-        margin-left: 21.5rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
         padding-top: 5.3125rem;
     }
 
     .dropdown-mega-content .drop-para .para {
-        margin-left: 0rem;
+        margin-left: 1.5rem;
     }
 
     .dropdown-mega-content .drop-para .para:nth-child(2) {
@@ -4460,11 +4464,12 @@ hr {
     }
 
     .dropdown-mega-content .drop-para .para p {
-        width: 100%;
+        width: 80%;
         font-size: 1rem;
         line-height: 1.1875rem;
         padding-top: 1.875rem;
     }
+
 
     .what-we-do .content {
         padding: 0rem 20rem 0 22rem;
@@ -6057,9 +6062,14 @@ hr {
         line-height: 2.5rem;
         font-size: 0.756rem;
     }
-    .dropdown-mega-content .heading .head,
+    /*.dropdown-mega-content .heading .head,
     .dropdown-mega-content .drop-para {
         margin-left: 15rem;
+    }*/
+    .drop-para {
+        margin-left: 2rem !important;
+        margin-right: 2rem !important;
+
     }
     .single-career .head h2 {
         font-size: 34.181px;
@@ -6570,6 +6580,7 @@ hr {
 
     .navbar .nav-item a {
         margin: 0rem;
+        text-align: center;
     }
 
     .navbar .nav-link {
@@ -8246,6 +8257,7 @@ hr {
     }
     .navbar .nav-item a {
         font-size: 13px;
+        width: 33%;
     }
     .banner-content .home-banner-btn .btn {
         width: 13rem;
@@ -8422,10 +8434,10 @@ hr {
         font-size: 1rem;
     }
 
-    .dropdown-mega-content .heading .head,
+    /* .dropdown-mega-content .heading .head,
     .dropdown-mega-content .drop-para {
         margin-left: 16rem;
-    }
+    } */
 
     .price .head h1 {
         font-size: 3.052rem;
