@@ -98,7 +98,7 @@
                                 </div>
                                 <div class="drop-para d-flex">
                                     <a href="{{ route('about-us') }}" class="@if (Route::is('about-us')) active @endif">
-                                        <div class="para first-para">
+                                        <div class="para ">
                                             <span>About →</span>
                                             <p>We are passionate about the solutions we create</p>
                                         </div>
@@ -145,7 +145,7 @@
                                 </div>
                                 <div class="drop-para d-flex">
                                     <a href="{{ route('textofia-core-analytics') }}" class="@if (Route::is('textofia-core-analytics')) active @endif">
-                                        <div class="para first-para">
+                                        <div class="para ">
                                             <span>Textofia Core
                                                 Analytics →</span>
                                             <p>We provide the most comprehensive set of Natural language processing APIs
@@ -184,24 +184,21 @@
                                 <div class="heading">
                                     <div class="head">
                                         <h1>Solutions</h1>
-                                        <p>We're here to help you achieve your goals in domain specific
-                                            data insights</p>
+                                        <p>Our solutions help you analyse your data and make the correct state-of-the art AI technologies.</p>
                                     </div>
                                 </div>
                                 <div class="drop-para d-flex">
                                     <a href="{{ route('solutions', 'legal-document-analytics') }}" class="@if (Request::is('solutions/legal-document-analytics')) active @endif">
-                                        <div class="para  first-para">
-                                            <span>Legal Document
-                                                Analytics →</span>
-                                            <p>Faster reviews and critical analysis of legal contracts checking for
-                                                complaince.</p>
+                                        <div class="para  ">
+                                            <span>Document Information extraction →</span>
+                                            <p>Our models use NLP techniques to automatically extract 
+structured information from unstructured or semi-structured text.</p>
                                         </div>
                                     </a>
 
                                     <a href="{{ route('solutions', 'financial-data-analytics') }}" class="@if (Request::is('solutions/financial-data-analytics')) active @endif">
                                         <div class="para">
-                                            <span>Financial Data
-                                                Analytics →</span>
+                                            <span>Customised Large Language Models (LLMs) →</span>
                                             <p>Enrich content through financial information extraction and
                                                 analyse corporate documents</p>
                                         </div>
@@ -209,8 +206,7 @@
 
                                     <a href="{{ route('solutions', 'news-media-intelligence') }}" class="@if (Request::is('solutions/news-media-intelligence')) active @endif">
                                         <div class="para">
-                                            <span>News Media
-                                                Intelligence →</span>
+                                            <span>Intelligent Agents →</span>
                                             <p>Quantiative content analysis of news articles and understanding
                                                 portrayal of topics</p>
                                         </div>
@@ -236,7 +232,7 @@
                                 </div>
                                 <div class="drop-para d-flex">
                                     <a href="{{ route('technology', 'deep-learning') }}" class="@if (Request::is('technology/deep-learning')) active @endif">
-                                        <div class="para first-para">
+                                        <div class="para ">
                                             <span> Deep Learning
                                                 →</span>
                                             <p>Cutting edge deep learning models for natural language processing using LLMs
@@ -285,7 +281,7 @@
                                     </div>
                                 </div>
                                 <div class="drop-para d-flex">
-                                    <div class="para first-para d-none">
+                                    <div class="para  d-none">
                                         <a href=""
                                             class="@if (Route::is('case-studies')) active @endif">Case studies
                                             →</a>
@@ -293,7 +289,7 @@
                                             laoreet.</p>
                                     </div>
 
-                                    <div class="para first-para">
+                                    <div class="para ">
                                         <a href="{{ route('blog') }}"
                                             class="@if (Route::is('blog')) active @endif">Blog →</a>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac arcu libero dui

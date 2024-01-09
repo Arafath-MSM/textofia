@@ -4,7 +4,7 @@
     <section
         class="textofia-banner textofia-banner2 textofia-banner5  d-flex justify-content-center align-items-center flex-column">
         <div class="head text-center">
-            <h1>Legal Document Analytics</h1>
+            <h1>Document Information extraction</h1>
         </div>
         <div class="scroll text-center">
             <p>scroll down to see more details.</p>
@@ -20,12 +20,13 @@
                 <div class="col-md-6">
                     <div class="head">
                         <h2 class="d-none">What is</h2>
-                        <h1 class="d-none">Legal Document Analytics</h1>
-                        <p>Contract review and negotiation is a challenging process, and ambiguity and
-                            bias persist as a main concern during contract reviews. </p><p>By applying NLP to
-                            legal documents, Our technology can detect such ambiguous terms, raise
-                            them during contract reviews, identify inconsistencies in legal texts and
-                            contracts, extract useful data, and check them against current law or rules.</p>
+                        <h1 class="d-none">Document Information extraction</h1>
+                        <p>We do intelligent information extraction that automatically extracts 
+structured information from unstructured or semi-structured text, 
+mainly documents related to a specific business domain. This 
+information can then be used for various purposes, such as 
+populating databases, summarising documents, or generating 
+reports.</p>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -46,33 +47,28 @@
                     <div class="Key-content-details2">
                         <div class="head">
                             <div class="heading">
-                                <h2>Legal Document Analytics</h2>
+                                <h2>Document Information extraction</h2>
                                 <h1>Key Features</h1>
                             </div>
                         </div>
                         <div class="key-content2">
                             <div class="para">
-                                <h6>Automatic summaries of legal contracts</h6>
-                                <p>Automatically extract accurate summaries of the key information from legal
-                                    documentation such as court cases, judgments and legal contracts</p>
+                                <h6>Automated data extraction</h6>
+                                <p>Automate the extraction of relevant information from complex business documents 
+such as invoices, receipts, contract, forms etc. Our API takes document files as input 
+from several formats and returns items as structured text. </p>
                             </div>
 
                             <div class="para">
-                                <h6>Fast reviews of contracts</h6>
-                                <p>Automatically find key legal terms, parties involved highlighted in contracts
-                                    allows for faster review</p>
+                                <h6>Automatic summaries</h6>
+                                <p>Detailed summaries are automatically generated from the information extracted from 
+documents according to business needs.</p>
                             </div>
 
                             <div class="para">
-                                <h6>Reporting</h6>
-                                <p>Identify key terms across a set of contracts in reports allowing to draw upon
-                                    the knowledge around legal agreements.</p>
-                            </div>
-
-                            <div class="para">
-                                <h6>Legal knowledge graph analysis</h6>
-                                <p>Analyse legal contract data in Knowledge graphs to obtain deeper insights
-                                    related to contracts on regulatory compliance.</p>
+                                <h6>Faster document processing</h6>
+                                <p>Our APIs process more documents efficiently with fewer errors and difficulties 
+reducing the ocerall time required to process multiple documents. </p>
                             </div>
                         </div>
                     </div>
