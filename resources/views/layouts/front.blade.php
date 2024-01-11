@@ -198,7 +198,7 @@ structured information from unstructured or semi-structured text.</p>
 
                                     <a href="{{ route('solutions', 'financial-data-analytics') }}" class="@if (Request::is('solutions/financial-data-analytics')) active @endif">
                                         <div class="para">
-                                            <span>Customised Large Language Models (LLMs) →</span>
+                                            <span>Customised Large Language Models →</span>
                                             <p>Enrich content through financial information extraction and
                                                 analyse corporate documents</p>
                                         </div>
