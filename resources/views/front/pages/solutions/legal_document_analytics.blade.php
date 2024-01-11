@@ -40,18 +40,23 @@ reports.</p>
     <!--what is section end-->
 
     <!--key section start-->
-    <section class="key2 key5">
-        <div class="key-content2">
-            <div class="row ">
+    <section class="key key3 key6">
+        <div class="key-content">
+            <div class="row">
                 <div class="col-md-6">
-                    <div class="Key-content-details2">
+                    <div class="key-img">
+                        <img src="{{ asset('front/images/MacBook-Pro2.png') }}" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="Key-content-details">
                         <div class="head">
                             <div class="heading">
                                 <h2>Document Information extraction</h2>
                                 <h1>Key Features</h1>
                             </div>
                         </div>
-                        <div class="key-content2">
+                        <div class="key-content">
                             <div class="para">
                                 <h6>Automated data extraction</h6>
                                 <p>Automate the extraction of relevant information from complex business documents 
@@ -71,11 +76,6 @@ documents according to business needs.</p>
 reducing the ocerall time required to process multiple documents. </p>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="key-img">
-                        <img src="{{ asset('front/images/MacBook-Pro1.png') }}" alt="">
                     </div>
                 </div>
             </div>
