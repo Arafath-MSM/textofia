@@ -269,7 +269,8 @@ hr {
 }
 
 .dropdown-mega-content {
-    height: 23.3625rem;
+    /* height: 23.3625rem; */
+    height: 26.1rem;
 }
 
 .dropdown-mega-content .heading {
@@ -4185,11 +4186,29 @@ hr {
         margin-bottom: 20rem;
     }
 
-    .dropdown-mega-content .drop-para .para {
+    /* .dropdown-mega-content .drop-para .para {
         width: 100%;
         margin-left: 0;
         margin-right: 2rem;
+    } */
+
+    .dropdown-mega-content .drop-para  {
+        width: 100%;
+        margin:auto 2rem;
+        padding-right: 2rem
+      
     }
+    .para{
+        margin-left: 1.2rem;
+        margin-right: 2rem ;
+    }
+    .dropdown-mega-content {
+        height: 26.1rem;
+      }
+    div.show > div:nth-child(1) > div:nth-child(2) > a{
+        width: 33%;
+      }
+      
 }
 
 @media screen and (min-width: 1900px) {
@@ -4344,6 +4363,10 @@ hr {
         margin-left: 3.125rem;
         font-size: 1rem;
         line-height: 1.1875rem;
+        /* width: 33%; */
+    }
+    div.show > div:nth-child(1) > div:nth-child(2) > a{
+        margin-left: 0rem;
         width: 33%;
     }
 
@@ -8191,10 +8214,13 @@ hr {
         width: 25%;
     }
 
-    .dropdown-mega-content .heading .head,
+    /* .dropdown-mega-content .heading .head,
     .dropdown-mega-content .drop-para {
         margin-left: 15rem;
-    }
+    } */
+    /* .drop-para {
+        margin: auto 2rem !important; 
+    } */
 }
 
 @media only screen and (min-width: 1001px) and (max-width: 1200px) {
@@ -8257,8 +8283,11 @@ hr {
     }
     .navbar .nav-item a {
         font-size: 13px;
-        width: 33%;
+        /* width: 33%; */
     }
+    div.show > div:nth-child(1) > div:nth-child(2) > a{
+        width: 33%;
+      }
     .banner-content .home-banner-btn .btn {
         width: 13rem;
         height: 3rem;
