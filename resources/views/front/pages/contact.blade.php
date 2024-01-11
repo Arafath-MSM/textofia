@@ -51,15 +51,12 @@
                                 <div class="select">
                                     <p class="sol-head">Solution required</p>
                                     <select id="solution" name="solution">
-                                        <option value="News media Intelligence"
-                                            {{ old('solution') == 'News media Intelligence' ? 'selected' : '' }}>News media
-                                            Intelligence </option>
-                                        <option value="Legal Document Analytics"
-                                            {{ old('solution') == 'Legal Document Analytics' ? 'selected' : '' }}>Legal
-                                            Document Analytics</option>
-                                        <option value="Financial Data Analytics"
-                                            {{ old('solution') == 'Financial Data Analytics' ? 'selected' : '' }}>Financial
-                                            Data Analytics</option>
+                                        <option value="Document Information extraction"
+                                            {{ old('solution') == 'Document Information extraction' ? 'selected' : '' }}>Document Information extraction </option>
+                                        <option value="Custom LLM Development"
+                                            {{ old('solution') == 'Custom LLM Development' ? 'selected' : '' }}>Custom LLM Development</option>
+                                        <option value="Intelligent Agents"
+                                            {{ old('solution') == 'Intelligent Agents' ? 'selected' : '' }}>Intelligent Agents</option>
                                     </select>
                                 </div>
                             </div>

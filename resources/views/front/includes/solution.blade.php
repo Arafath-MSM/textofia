@@ -15,24 +15,24 @@
     </div>
     <div class="d-flex justify-content-center flex-wrap solution-content-2">
         <div class="document text-center">
-            <h2>Legal Document Analytics</h2>
+            <h2>Custom LLM Development</h2>
             <div class="d-flex justify-content-center">
                 <p>Our technology helps analysing legal contracts, identify inconsistencies, extract useful data and
                     check against current law or rules.</p>
             </div>
-            <a href="{{ route('solutions', 'legal-document-analytics') }}" class="visit">Visit Solution Page →</a>
+            <a href="{{ route('solutions', 'customised-large-language-models') }}" class="visit">Visit Solution Page →</a>
             <div class="d-flex  justify-content-center para d-none">
                 <p>Pricing plans starting from $39 $24</p>
             </div>
         </div>
         <div class="financial text-center">
-            <h2>Financial Data Analytics</h2>
+            <h2>Intelligent Agents</h2>
             <div class="d-flex justify-content-center">
                 <p>Our NLP models can intent parse financial text, enrich content through information extraction and
                     analyse
                     sentiment of corporate documents.</p>
             </div>
-            <a href="{{ route('solutions', 'financial-data-analytics') }}" class="visit">Visit Solution Page →</a>
+            <a href="{{ route('solutions', 'intelligent-agents') }}" class="visit">Visit Solution Page →</a>
             <div class="d-flex justify-content-center para a d-none">
                 <p>Pricing plans starting from $29</p>
             </div>

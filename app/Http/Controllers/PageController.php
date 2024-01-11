@@ -56,13 +56,13 @@ class PageController extends Controller
         $posts = Post::paginate(6);
         return view('front.blog.index',compact('posts'));
     }
-
+        
     public function solutionPage($slug){
-        if($slug == 'financial-data-analytics') {
+        if($slug == 'customised-large-language-models') {
             return view('front.pages.solutions.financial_data_analytic');
-        } else if ($slug == 'legal-document-analytics') {
+        } else if ($slug == 'document-information-extraction') {
             return view('front.pages.solutions.legal_document_analytics');
-        } else if($slug == 'news-media-intelligence') {
+        } else if($slug == 'intelligent-agents') {
             return view('front.pages.solutions.new_media_intelligence');
         } else {
             abort(404);

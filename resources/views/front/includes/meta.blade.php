@@ -18,45 +18,66 @@
 <meta property="twitter:description" content="Explore the powerful synergy of microservices and containers with Textofia. Our platform offers a robust ecosystem for leveraging microservices architecture and containerization to supercharge your application development and deployment processes.">
 <meta property="twitter:image" content="">
 
-@elseif(Request::is('solutions/legal-document-analytics'))
+@elseif(Request::is('solutions/document-information-extraction'))
 
 <!-- Primary Meta Tags -->
-<title>Legal Document Analytics | Textofia</title>
-<meta name="title" content="Legal Document Analytics | Textofia">
+<title>Document Information extraction | Textofia</title>
+<meta name="title" content="Document Information extraction | Textofia">
 <meta name="description" content="Experience the transformative power of legal document analytics for your law firm or legal department. With our cutting-edge platform, gain actionable insights and optimize your workflow by leveraging advanced technologies such as artificial intelligence and natural language processing.">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="{{ setting('app_url') }}">
-<meta property="og:title" content="Legal Document Analytics | Textofia">
+<meta property="og:title" content="Document Information extraction | Textofia">
 <meta property="og:description" content="Experience the transformative power of legal document analytics for your law firm or legal department. With our cutting-edge platform, gain actionable insights and optimize your workflow by leveraging advanced technologies such as artificial intelligence and natural language processing.">
 <meta property="og:image" content="">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="{{ setting('app_url') }}">
-<meta property="twitter:title" content="Legal Document Analytics | Textofia">
+<meta property="twitter:title" content="Document Information extraction | Textofia">
 <meta property="twitter:description" content="Experience the transformative power of legal document analytics for your law firm or legal department. With our cutting-edge platform, gain actionable insights and optimize your workflow by leveraging advanced technologies such as artificial intelligence and natural language processing.">
 <meta property="twitter:image" content="">
 
-@elseif(Request::is('solutions/financial-data-analytics'))
+@elseif(Request::is('solutions/customised-large-language-models'))
 
 <!-- Primary Meta Tags -->
-<title>Financial Data Analytics | Textofia</title>
-<meta name="title" content="Financial Data Analytics | Textofia">
+<title>Customised Large Language Models | Textofia</title>
+<meta name="title" content="Customised Large Language Models | Textofia">
 <meta name="description" content="Unleash valuable insights and informed decision-making with the power of financial data analytics. Our advanced platform utilizes cutting-edge technologies like data mining, machine learning, and predictive analytics to analyze and interpret complex financial data.">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="{{ setting('app_url') }}">
-<meta property="og:title" content="Financial Data Analytics | Textofia">
+<meta property="og:title" content="Customised Large Language Models | Textofia">
 <meta property="og:description" content="Unleash valuable insights and informed decision-making with the power of financial data analytics. Our advanced platform utilizes cutting-edge technologies like data mining, machine learning, and predictive analytics to analyze and interpret complex financial data.">
 <meta property="og:image" content="">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="{{ setting('app_url') }}">
-<meta property="twitter:title" content="Financial Data Analytics | Textofia">
+<meta property="twitter:title" content="Customised Large Language Models | Textofia">
+<meta property="twitter:description" content="Unleash valuable insights and informed decision-making with the power of financial data analytics. Our advanced platform utilizes cutting-edge technologies like data mining, machine learning, and predictive analytics to analyze and interpret complex financial data.">
+<meta property="twitter:image" content="">
+
+@elseif(Request::is('solutions/intelligent-agents'))
+
+<!-- Primary Meta Tags -->
+<title>Intelligent Agents | Textofia</title>
+<meta name="title" content="Intelligent Agents | Textofia">
+<meta name="description" content="Unleash valuable insights and informed decision-making with the power of financial data analytics. Our advanced platform utilizes cutting-edge technologies like data mining, machine learning, and predictive analytics to analyze and interpret complex financial data.">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ setting('app_url') }}">
+<meta property="og:title" content="Intelligent Agents | Textofia">
+<meta property="og:description" content="Unleash valuable insights and informed decision-making with the power of financial data analytics. Our advanced platform utilizes cutting-edge technologies like data mining, machine learning, and predictive analytics to analyze and interpret complex financial data.">
+<meta property="og:image" content="">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="{{ setting('app_url') }}">
+<meta property="twitter:title" content="Intelligent Agents | Textofia">
 <meta property="twitter:description" content="Unleash valuable insights and informed decision-making with the power of financial data analytics. Our advanced platform utilizes cutting-edge technologies like data mining, machine learning, and predictive analytics to analyze and interpret complex financial data.">
 <meta property="twitter:image" content="">
 
@@ -251,28 +272,6 @@
 <meta property="twitter:title" content="About Us | Textofia">
 <meta property="twitter:description" content=" Learn more about us and discover how we empower businesses with innovative solutions for success. With a focus on excellence, we leverage cutting-edge technologies, industry expertise, and a customer-centric approach to deliver transformative results. ">
 <meta property="twitter:image" content="">
-
-@elseif(Request::is('solutions/news-media-intelligence'))
-
-<!-- Primary Meta Tags -->
-<title> News Media Intelligence | Textofia</title>
-<meta name="title" content=" News Media Intelligence | Textofia">
-<meta name="description" content="Our advanced platform leverages cutting-edge technologies and data analytics to analyze and interpret trends, sentiments, and audience behavior across various digital channels.">
-
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="{{ setting('app_url') }}">
-<meta property="og:title" content=" News Media Intelligence | Textofia">
-<meta property="og:description" content="Our advanced platform leverages cutting-edge technologies and data analytics to analyze and interpret trends, sentiments, and audience behavior across various digital channels.">
-<meta property="og:image" content="">
-
-<!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="{{ setting('app_url') }}">
-<meta property="twitter:title" content=" News Media Intelligence | Textofia">
-<meta property="twitter:description" content="Our advanced platform leverages cutting-edge technologies and data analytics to analyze and interpret trends, sentiments, and audience behavior across various digital channels.">
-<meta property="twitter:image" content="">
-
 
 @elseif(Request::is('technology/orchestration'))
 
