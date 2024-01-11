@@ -188,7 +188,7 @@
                                     </div>
                                 </div>
                                 <div class="drop-para d-flex">
-                                    <a href="{{ route('solutions', 'legal-document-analytics') }}" class="@if (Request::is('solutions/legal-document-analytics')) active @endif">
+                                    <a href="{{ route('solutions', 'document-information-extraction') }}" class="@if (Request::is('solutions/document-information-extraction')) active @endif">
                                         <div class="para  ">
                                             <span>Document Information extraction →</span>
                                             <p>Our models use NLP techniques to automatically extract 
@@ -196,15 +196,15 @@ structured information from unstructured or semi-structured text.</p>
                                         </div>
                                     </a>
 
-                                    <a href="{{ route('solutions', 'financial-data-analytics') }}" class="@if (Request::is('solutions/financial-data-analytics')) active @endif">
+                                    <a href="{{ route('solutions', 'customised-large-language-models') }}" class="@if (Request::is('solutions/customised-large-language-models')) active @endif">
                                         <div class="para">
-                                            <span>Customised Large Language Models (LLMs) →</span>
+                                            <span>Customised Large Language Models →</span>
                                             <p>Enrich content through financial information extraction and
                                                 analyse corporate documents</p>
                                         </div>
                                     </a>
 
-                                    <a href="{{ route('solutions', 'news-media-intelligence') }}" class="@if (Request::is('solutions/news-media-intelligence')) active @endif">
+                                    <a href="{{ route('solutions', 'intelligent-agents') }}" class="@if (Request::is('solutions/intelligent-agents')) active @endif">
                                         <div class="para">
                                             <span>Intelligent Agents →</span>
                                             <p>Quantiative content analysis of news articles and understanding
@@ -359,9 +359,9 @@ structured information from unstructured or semi-structured text.</p>
                 <div class="col-md-3 space">
                     <h6>Solutions</h6>
                     <div class="links links3 d-flex flex-column">
-                        <a href="{{ route('solutions', 'legal-document-analytics') }}">Legal Document Analytics</a>
-                        <a href="{{ route('solutions', 'financial-data-analytics') }}">Financial Data Analytics</a>
-                        <a href="{{ route('solutions', 'news-media-intelligence') }}">News Media Intelligence</a>
+                        <a href="{{ route('solutions', 'document-information-extraction') }}">Document Information extraction</a>
+                        <a href="{{ route('solutions', 'customised-large-language-models') }}">Custom LLM Development</a>
+                        <a href="{{ route('solutions', 'intelligent-agents') }}">Intelligent Agents</a>
                     </div>
                 </div>
                 <div class="col-md-3">

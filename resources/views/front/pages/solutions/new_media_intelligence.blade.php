@@ -56,14 +56,14 @@ Additionally, we also provide automatic drafting of complex business documents.<
                         <div class="key-content">
                             <div class="para">
                                 <h6>Suggestions for risk mitigation</h6>
-                                <p>Our instruction-tuned models are fine-tuned variations of a foundation model designed to 
-follow instructions and generate a document based on business needs. For example given 
-a prompt with specific clauses our models can generate a draft business contract.</p>
+                                <p></p>
                             </div>
 
                             <div class="para">
                                 <h6>Automated document drafting</h6>
-                                <p></p>
+                                <p>Our instruction-tuned models are fine-tuned variations of a foundation model designed to 
+follow instructions and generate a document based on business needs. For example given 
+a prompt with specific clauses our models can generate a draft business contract.</p>
                             </div>
 
                         </div>
