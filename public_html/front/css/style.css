@@ -4367,7 +4367,7 @@ hr {
     }
     div.show > div:nth-child(1) > div:nth-child(2) > a{
         margin-left: 0rem;
-        width: 33%;
+        width: 25%;
     }
 
     .navbar .nav-link {
@@ -4456,7 +4456,7 @@ hr {
     }
 
     .dropdown-mega-content .drop-para {
-        margin-left: 2rem;
+        margin-left: 5rem;
         margin-right: 2rem;
         padding-top: 5.3125rem;
     }
