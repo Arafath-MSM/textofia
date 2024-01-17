@@ -20,10 +20,10 @@
                     <div class="head">
                         <h2 class="d-none">What is</h2>
                         <h1 class="d-none">Intelligent Agents</h1>
-                        <p>Our generative models based on Large Language Models (LLMs) are capable of 
-analysing your business documents and providing summaries, suggestions for 
-precautions and pinpoint areas of risk in documents to facilitate decision-making. 
-Additionally, we also provide automatic drafting of complex business documents.</p>
+                        <p>Our LLM based agents are capable of autonomously analysing your business documents 
+and providing summaries, suggestions for precautions and pinpoint areas of risk in 
+documents to facilitate decision-making. Additionally, we also provide automatic drafting 
+of complex business documents.</p>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -56,7 +56,9 @@ Additionally, we also provide automatic drafting of complex business documents.<
                         <div class="key-content">
                             <div class="para">
                                 <h6>Suggestions for risk mitigation</h6>
-                                <p></p>
+                                <p>Our custom LLMs are capable of analysing business or legal contracts and identify 
+potential areas of risky clauses or clauses that needs more attention from the parties 
+before signing the contracts. </p>
                             </div>
 
                             <div class="para">
@@ -64,6 +66,13 @@ Additionally, we also provide automatic drafting of complex business documents.<
                                 <p>Our instruction-tuned models are fine-tuned variations of a foundation model designed to 
 follow instructions and generate a document based on business needs. For example given 
 a prompt with specific clauses our models can generate a draft business contract.</p>
+                            </div>
+
+                            <div class="para">
+                                <h6>Intelligent search and retrieval</h6>
+                                <p>Our agents can query external databases and retrieve information, combine that with 
+information from a large language model and provide deeper isights for search and retrieval 
+problems.</p>
                             </div>
 
                         </div>

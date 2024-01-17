@@ -199,16 +199,17 @@ structured information from unstructured or semi-structured text.</p>
                                     <a href="{{ route('solutions', 'customised-large-language-models') }}" class="@if (Request::is('solutions/customised-large-language-models')) active1 @endif">
                                         <div class="para">
                                             <span>Customised Large Language Models →</span>
-                                            <p>Enrich content through financial information extraction and
-                                                analyse corporate documents</p>
+                                            <p>We provide customised genertive pretrained models capable of 
+analysing your data and returning answers to your queries</p>
                                         </div>
                                     </a>
 
                                     <a href="{{ route('solutions', 'intelligent-agents') }}" class="@if (Request::is('solutions/intelligent-agents')) active1 @endif">
                                         <div class="para">
                                             <span>Intelligent Agents →</span>
-                                            <p>Quantiative content analysis of news articles and understanding
-                                                portrayal of topics</p>
+                                            <p>Our solutions unlock new possibilities with LLM agents capable of performing 
+several tasks autonomously and combine them to provide data insights 
+or help in decision making</p>
                                         </div>
                                     </a>
 

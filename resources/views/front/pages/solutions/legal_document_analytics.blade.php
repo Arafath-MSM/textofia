@@ -73,7 +73,7 @@ documents according to business needs.</p>
                             <div class="para">
                                 <h6>Faster document processing</h6>
                                 <p>Our APIs process more documents efficiently with fewer errors and difficulties 
-reducing the ocerall time required to process multiple documents. </p>
+reducing the ocerall time required to process multiple documents.  </p>
                             </div>
                         </div>
                     </div>
