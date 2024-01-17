@@ -586,11 +586,12 @@ hr {
 }
 
 .solution-img .document-img img {
-    width: 27.43125rem;
+    width: 23.43125rem;
 }
 
 .solution-img .financial-img img {
-    width: 20.34375rem;
+    width: 23.34375rem;
+    margin-left: 25px;
 }
 
 .solution-img img {
@@ -3555,8 +3556,8 @@ hr {
     }
 
     .solution .solution-content .solution-img img {
-        width: 80%;
-        height: 90%;
+        /* width: 80%; */
+        /* height: 90%; */
         margin: 0 auto;
     }
 
@@ -4576,11 +4577,11 @@ hr {
     }
 
     .solution-img .document-img img {
-        width: 39.1875rem;
+        width: 23.938rem;
     }
 
     .solution-img .financial-img img {
-        width: 29.0625rem;
+        width: 23.938rem;
     }
 
     .solution-img img {
@@ -6275,7 +6276,7 @@ hr {
         width: 100%;
     }
     .solution-img img {
-        margin: 0rem 4.428125rem;
+        margin: 0rem 10.428125rem !important;
     }
     .our-story-content .para {
         padding-left: 0.8rem;
@@ -6308,7 +6309,10 @@ hr {
     .our-story-content .para p {
         text-align: justify;
     }
-
+    .solution-img img
+{
+    margin: 0 4.23rem;
+}
     .career-content p {
         text-align: justify;
     }
@@ -6966,16 +6970,16 @@ hr {
     }
 
     .solution-img img {
-        margin: 0;
+        /* margin: 0; */
     }
 
-    .solution-img .document-img img {
+    /*.solution-img .document-img img {
         width: 100%;
     }
 
     .solution-img .financial-img img {
         width: 100%;
-    }
+    }*/
 
     .solution .head {
         padding-top: 2rem;
@@ -8449,6 +8453,15 @@ hr {
 }
 
 @media screen and (min-width: 1900px) {
+    .solution-img {
+        margin-top: 8.813rem;
+        justify-content: space-evenly !important;
+    }
+
+    .document-img {
+        margin-left: 100px;
+    }
+
     .banner-content .home-banner-head h1 {
         font-size: 48.83px;
         line-height: 70px;
