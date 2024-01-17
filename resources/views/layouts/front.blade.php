@@ -100,7 +100,7 @@
                                     <a href="{{ route('about-us') }}" class="@if (Route::is('about-us')) active1 @endif">
                                         <div class="para ">
                                             <span>About →</span>
-                                            <p>We are passionate about the solutions we create</p>
+                                            <p>We are passionate about the solutions we create.</p>
                                         </div>
                                     </a>
 
@@ -113,7 +113,7 @@
                                     <a href="{{ route('team') }}" class="@if (Route::is('team')) active1 @endif">
                                         <div class="para">
                                             <span>Team →</span>
-                                            <p>We are a team of visionaries, scientists and engineers that drive value</p>
+                                            <p>We are a team of visionaries, scientists and engineers that drive value.</p>
                                         </div>
                                     </a>
 
@@ -121,7 +121,7 @@
                                         <div class="para">
                                             <span>Careers →</span>
                                             <p>View career openings and explore remote-friendly, flexible
-                                                opportunities</p>
+                                                opportunities.</p>
                                         </div>
                                     </a>
                                 </div>
@@ -148,7 +148,7 @@
                                         <div class="para ">
                                             <span>Textofia Core
                                                 Analytics →</span>
-                                            <p>We provide the most comprehensive set of Natural language processing APIs
+                                            <p>We provide the most comprehensive set of Natural language processing APIs.
                                             </p>
                                         </div>
                                     </a>
@@ -167,7 +167,7 @@
                                             <span>Knowledge Graph
                                                 Intelligence →</span>
                                             <p>Graph based analysis to deliver sharper insights and identify better
-                                                opportunities</p>
+                                                opportunities.</p>
                                         </div>
                                     </a>
                                 </div>
@@ -200,7 +200,7 @@ structured information from unstructured or semi-structured text.</p>
                                         <div class="para">
                                             <span>Customised Large Language Models →</span>
                                             <p>We provide customised genertive pretrained models capable of 
-analysing your data and returning answers to your queries</p>
+analysing your data and returning answers to your queries.</p>
                                         </div>
                                     </a>
 
@@ -208,8 +208,7 @@ analysing your data and returning answers to your queries</p>
                                         <div class="para">
                                             <span>Intelligent Agents →</span>
                                             <p>Our solutions unlock new possibilities with LLM agents capable of performing 
-several tasks autonomously and combine them to provide data insights 
-or help in decision making</p>
+several tasks autonomously.</p>
                                         </div>
                                     </a>
 
@@ -236,7 +235,7 @@ or help in decision making</p>
                                         <div class="para ">
                                             <span> Deep Learning
                                                 →</span>
-                                            <p>Cutting edge deep learning models for natural language processing using LLMs
+                                            <p>Cutting edge deep learning models for natural language processing using LLMs.
                                             </p>
                                         </div>
                                     </a>
@@ -244,7 +243,7 @@ or help in decision making</p>
                                     <a href="{{ route('technology', 'mlops') }}" class="@if (Request::is('technology/mlops')) active1 @endif">
                                         <div class="para">
                                             <span>MLOps →</span>
-                                            <p>We ensure reliable and scalable deployment of machine learning models</p>
+                                            <p>We ensure reliable and scalable deployment of machine learning models.</p>
                                         </div>
                                     </a>
 
@@ -253,7 +252,7 @@ or help in decision making</p>
                                             <span>Micro Services
                                                 Orchestration →</span>
                                             <p>Optimizing microservices communication and coordination through orchestration
-                                                pattern</p>
+                                                pattern.</p>
                                         </div>
                                     </a>
 
@@ -261,7 +260,7 @@ or help in decision making</p>
                                         <a href="" class="@if (Request::is('technology/microservices-and-containers')) active1 @endif">
                                             Microservices and containers →</a>
                                         <p>Optimizing microservices communication and coordination through orchestration
-                                            pattern</p>
+                                            pattern.</p>
                                     </div>
                                 </div>
                             </div>
@@ -278,7 +277,7 @@ or help in decision making</p>
                                     <div class="head">
                                         <h1>Resources</h1>
                                         <p>You will find useful resources here for using Textofia in analysing your data
-                                            needs</p>
+                                            needs.</p>
                                     </div>
                                 </div>
                                 <div class="drop-para d-flex">
