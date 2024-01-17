@@ -6,10 +6,10 @@
         </div>
         <div class="solution-img d-flex justify-content-center">
             <div class="document-img">
-                <img src="{{ asset('front/images/document-img.png') }}" alt="document">
+                <img src="{{ asset('front/images/document-information-extraction.png') }}" alt="document">
             </div>
             <div class="financial-img">
-                <img src="{{ asset('front/images/financial-img.png') }}" alt="financial">
+                <img src="{{ asset('front/images/custom-llm-development.png') }}" alt="financial">
             </div>
         </div>
     </div>
