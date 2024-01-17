@@ -21,8 +21,7 @@
                     <div class="head">
                         <h2 class="d-none">What is</h2>
                         <h1 class="d-none">Customised Large Language Models (LLMs) </h1>
-                        <p>
-Designing, constructing, and integrating Custom Large Language Models can be a 
+                        <p>Designing, constructing, and integrating Custom Large Language Models can be a 
 complex process. We assist you in making informed technical choices, crafting 
 an optimal Custom LLM solution, and seamlessly integrating it into your business 
 workflows. Initially, we focus on comprehending the unique business use case for 

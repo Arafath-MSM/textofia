@@ -15,24 +15,23 @@
     </div>
     <div class="d-flex justify-content-center flex-wrap solution-content-2">
         <div class="document text-center">
-            <h2>Custom LLM Development</h2>
+            <h2>Document Information Extraction</h2>
             <div class="d-flex justify-content-center">
-                <p>Our technology helps analysing legal contracts, identify inconsistencies, extract useful data and
-                    check against current law or rules.</p>
+                <p>Our models use NLP techniques to automatically extract 
+structured information from unstructured or semi-structured text.</p>
             </div>
-            <a href="{{ route('solutions', 'customised-large-language-models') }}" class="visit">Visit Solution Page →</a>
+            <a href="{{ route('solutions', 'document-information-extraction') }}" class="visit">Visit Solution Page →</a>
             <div class="d-flex  justify-content-center para d-none">
                 <p>Pricing plans starting from $39 $24</p>
             </div>
         </div>
         <div class="financial text-center">
-            <h2>Intelligent Agents</h2>
+            <h2>Custom LLM Development</h2>
             <div class="d-flex justify-content-center">
-                <p>Our NLP models can intent parse financial text, enrich content through information extraction and
-                    analyse
-                    sentiment of corporate documents.</p>
+                <p>We provide customised genertive pretrained models capable of 
+analysing your data and returning answers to your queries</p>
             </div>
-            <a href="{{ route('solutions', 'intelligent-agents') }}" class="visit">Visit Solution Page →</a>
+            <a href="{{ route('solutions', 'customised-large-language-models') }}" class="visit">Visit Solution Page →</a>
             <div class="d-flex justify-content-center para a d-none">
                 <p>Pricing plans starting from $29</p>
             </div>
