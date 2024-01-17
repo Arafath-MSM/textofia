@@ -17,7 +17,7 @@
         <div class="document text-center">
             <h2>Document Information Extraction</h2>
             <div class="d-flex justify-content-center">
-                <p>Our models use NLP techniques to automatically extract 
+                <p>Our models use NLP techniques to automatically extract
 structured information from unstructured or semi-structured text.</p>
             </div>
             <a href="{{ route('solutions', 'document-information-extraction') }}" class="visit">Visit Solution Page →</a>
@@ -28,8 +28,8 @@ structured information from unstructured or semi-structured text.</p>
         <div class="financial text-center">
             <h2>Custom LLM Development</h2>
             <div class="d-flex justify-content-center">
-                <p>We provide customised genertive pretrained models capable of 
-analysing your data and returning answers to your queries</p>
+                <p>We provide customised genertive pretrained models capable of
+analysing your data and returning answers to your queries.</p>
             </div>
             <a href="{{ route('solutions', 'customised-large-language-models') }}" class="visit">Visit Solution Page →</a>
             <div class="d-flex justify-content-center para a d-none">
