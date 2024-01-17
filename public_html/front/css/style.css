@@ -8593,3 +8593,7 @@ hr {
     max-width: 100vw;
     overflow-x: hidden;
 }
+
+.drop-para {
+    justify-content: center;
+}
