@@ -11,7 +11,7 @@
                             <h1>We craft best-in-class Text recognition and extraction algorithms</h1>
                         </div>
                         <div class="home-banner-para">
-                            <p>Textofia platform consists core text analytics, a digital content conversion pipeline and domain specific solutions with generative AI.</p>
+                            <p>Textofia platform consists core text analytics, a digital content conversion pipeline and domain specific solutions with <br>generative AI.</p>
                         </div>
                         <div class="home-banner-btn">
                             <a href="#what-we-offer"><button class="btn">Explore our products</button></a>
