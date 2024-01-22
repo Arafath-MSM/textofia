@@ -14,7 +14,7 @@
     ================================================== -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="google-site-verification" content="rSkF7luexco5BrQN0Xgc1InyfEOM1hggjd190Y0yLHU" />
-    
+
     <!-- CSS
     ================================================== -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
@@ -33,17 +33,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 
-     
-    <!-- Google tag (gtag.js) --> 
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8GN4GPHXQH"></script> 
+    <!-- Google tag (gtag.js) -->
 
-    <script> 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8GN4GPHXQH"></script>
 
-    window.dataLayer = window.dataLayer || []; 
-    function gtag(){dataLayer.push(arguments);} 
-    gtag('js', new Date()); 
-    gtag('config', 'G-8GN4GPHXQH'); 
+    <script>
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-8GN4GPHXQH');
 
     </script>
 </head>
@@ -191,24 +191,24 @@
                                     <a href="{{ route('solutions', 'document-information-extraction') }}" class="@if (Request::is('solutions/document-information-extraction')) active1 @endif">
                                         <div class="para  ">
                                             <span>Document Information extraction →</span>
-                                            <p>Our models use NLP techniques to automatically extract 
-structured information from unstructured or semi-structured text.</p>
+                                            <p>Automatically extract structured information from
+                                                unstructured documents.</p>
                                         </div>
                                     </a>
 
                                     <a href="{{ route('solutions', 'customised-large-language-models') }}" class="@if (Request::is('solutions/customised-large-language-models')) active1 @endif">
                                         <div class="para">
                                             <span>Customised Large Language Models →</span>
-                                            <p>We provide customised genertive pretrained models capable of 
-analysing your data and returning answers to your queries.</p>
+                                            <p>Customised generative models trained on your data to
+                                                provide answers. </p>
                                         </div>
                                     </a>
 
                                     <a href="{{ route('solutions', 'intelligent-agents') }}" class="@if (Request::is('solutions/intelligent-agents')) active1 @endif">
                                         <div class="para">
                                             <span>Intelligent Agents →</span>
-                                            <p>Our solutions unlock new possibilities with LLM agents capable of performing 
-several tasks autonomously.</p>
+                                            <p>Unlock new possibilities with LLM agents capable of performing
+                                                several tasks autonomously.</p>
                                         </div>
                                     </a>
 
