@@ -14,11 +14,11 @@
     ================================================== -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="google-site-verification" content="rSkF7luexco5BrQN0Xgc1InyfEOM1hggjd190Y0yLHU" />
-    
+
     <!-- CSS
     ================================================== -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{ asset('front/css/style.css') }}?v=2.55">
+    <link rel="stylesheet" href="{{ asset('front/css/style.css') }}?v=3.38">
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -33,17 +33,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 
-     
-    <!-- Google tag (gtag.js) --> 
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8GN4GPHXQH"></script> 
+    <!-- Google tag (gtag.js) -->
 
-    <script> 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8GN4GPHXQH"></script>
 
-    window.dataLayer = window.dataLayer || []; 
-    function gtag(){dataLayer.push(arguments);} 
-    gtag('js', new Date()); 
-    gtag('config', 'G-8GN4GPHXQH'); 
+    <script>
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-8GN4GPHXQH');
 
     </script>
 </head>
@@ -97,11 +97,12 @@
                                     </div>
                                 </div>
                                 <div class="drop-para d-flex">
-                                    <div class="para first-para">
-                                        <a href="{{ route('about-us') }}"
-                                            class="@if (Route::is('about-us')) active @endif">About →</a>
-                                        <p>We are passionate about the solutions we create</p>
-                                    </div>
+                                    <a href="{{ route('about-us') }}" class="@if (Route::is('about-us')) active1 @endif">
+                                        <div class="para ">
+                                            <span>About →</span>
+                                            <p>We are passionate about the solutions we create.</p>
+                                        </div>
+                                    </a>
 
                                     {{-- <div class="para d-none">
                                         <a href="{{ route('news') }}"
@@ -109,18 +110,20 @@
                                         <p>Generative AI for drafting contracts and faster contract reviews</p>
                                     </div> --}}
 
-                                    <div class="para">
-                                        <a href="{{ route('team') }}"
-                                            class="@if (Route::is('team')) active @endif">Team →</a>
-                                        <p>We are a team of visionaries, scientists and engineers that drive value</p>
-                                    </div>
+                                    <a href="{{ route('team') }}" class="@if (Route::is('team')) active1 @endif">
+                                        <div class="para">
+                                            <span>Team →</span>
+                                            <p>We are a team of visionaries, scientists and engineers that drive value.</p>
+                                        </div>
+                                    </a>
 
-                                    <div class="para">
-                                        <a href="{{ route('careers') }}"
-                                            class="@if (Route::is('careers')) active @endif">Careers →</a>
-                                        <p>View career openings and explore remote-friendly, flexible
-                                            opportunities</p>
-                                    </div>
+                                    <a href="{{ route('careers') }}" class="@if (Route::is('careers')) active1 @endif">
+                                        <div class="para">
+                                            <span>Careers →</span>
+                                            <p>View career openings and explore remote-friendly, flexible
+                                                opportunities.</p>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -141,29 +144,32 @@
                                     </div>
                                 </div>
                                 <div class="drop-para d-flex">
-                                    <div class="para first-para">
-                                        <a href="{{ route('textofia-core-analytics') }}"
-                                            class="@if (Route::is('textofia-core-analytics')) active @endif">Textofia Core
-                                            Analytics →</a>
-                                        <p>We provide the most comprehensive set of Natural language processing APIs
-                                        </p>
-                                    </div>
+                                    <a href="{{ route('textofia-core-analytics') }}" class="@if (Route::is('textofia-core-analytics')) active1 @endif">
+                                        <div class="para ">
+                                            <span>Textofia Core
+                                                Analytics →</span>
+                                            <p>We provide the most comprehensive set of Natural language processing APIs.
+                                            </p>
+                                        </div>
+                                    </a>
 
-                                    <div class="para">
-                                        <a href="{{ route('digital-content-conversion') }}"
-                                            class="@if (Route::is('digital-content-conversion')) active @endif">Digital Content
-                                            Conversion →</a>
-                                        <p>Automatically convert historical document collections into sustainable,
-                                            digital archives. </p>
-                                    </div>
+                                    <a href="{{ route('digital-content-conversion') }}" class="@if (Route::is('digital-content-conversion')) active1 @endif">
+                                        <div class="para">
+                                            <span>Digital Content
+                                                Conversion →</span>
+                                            <p>Automatically convert historical document collections into sustainable,
+                                                digital archives. </p>
+                                        </div>
+                                    </a>
 
-                                    <div class="para">
-                                        <a href="{{ route('knowledge-graph-intelligence') }}"
-                                            class="@if (Route::is('knowledge-graph-intelligence')) active @endif">Knowledge Graph
-                                            Intelligence →</a>
-                                        <p>Graph based analysis to deliver sharper insights and identify better
-                                            opportunities</p>
-                                    </div>
+                                    <a href="{{ route('knowledge-graph-intelligence') }}" class="@if (Route::is('knowledge-graph-intelligence')) active1 @endif">
+                                        <div class="para">
+                                            <span>Knowledge Graph
+                                                Intelligence →</span>
+                                            <p>Graph based analysis to deliver sharper insights and identify better
+                                                opportunities.</p>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -178,33 +184,33 @@
                                 <div class="heading">
                                     <div class="head">
                                         <h1>Solutions</h1>
-                                        <p>We're here to help you achieve your goals in domain specific
-                                            data insights</p>
+                                        <p>Our solutions help you analyse your data and make the correct state-of-the art AI technologies.</p>
                                     </div>
                                 </div>
                                 <div class="drop-para d-flex">
-                                    <div class="para  first-para">
-                                        <a href="{{ route('solutions', 'legal-document-analytics') }}"
-                                            class="@if (Request::is('solutions/legal-document-analytics')) active @endif">Legal Document
-                                            Analytics →</a>
-                                        <p>Faster reviews and critical analysis of legal contracts checking for
-                                            complaince.</p>
-                                    </div>
+                                    <a href="{{ route('solutions', 'document-information-extraction') }}" class="@if (Request::is('solutions/document-information-extraction')) active1 @endif">
+                                        <div class="para  ">
+                                            <span>Document Information extraction →</span>
+                                            <p>Automatically extract structured information from
+                                                unstructured documents.</p>
+                                        </div>
+                                    </a>
 
-                                    <div class="para">
-                                        <a href="{{ route('solutions', 'financial-data-analytics') }}"
-                                            class="@if (Request::is('solutions/financial-data-analytics')) active @endif">Financial Data
-                                            Analytics →</a>
-                                        <p>Enrich content through financial information extraction and
-                                            analyse corporate documents</p>
-                                    </div>
-                                    <div class="para">
-                                        <a href="{{ route('solutions', 'news-media-intelligence') }}"
-                                            class="@if (Request::is('solutions/news-media-intelligence')) active @endif">News Media
-                                            Intelligence →</a>
-                                        <p>Quantiative content analysis of news articles and understanding
-                                            portrayal of topics</p>
-                                    </div>
+                                    <a href="{{ route('solutions', 'customised-large-language-models') }}" class="@if (Request::is('solutions/customised-large-language-models')) active1 @endif">
+                                        <div class="para">
+                                            <span>Customised Large Language Models →</span>
+                                            <p>Customised generative models trained on your data to
+                                                provide answers. </p>
+                                        </div>
+                                    </a>
+
+                                    <a href="{{ route('solutions', 'intelligent-agents') }}" class="@if (Request::is('solutions/intelligent-agents')) active1 @endif">
+                                        <div class="para">
+                                            <span>Intelligent Agents →</span>
+                                            <p>Unlock new possibilities with LLM agents capable of performing
+                                                several tasks autonomously.</p>
+                                        </div>
+                                    </a>
 
 
                                 </div>
@@ -225,33 +231,36 @@
                                     </div>
                                 </div>
                                 <div class="drop-para d-flex">
-                                    <div class="para first-para">
-                                        <a href="{{ route('technology', 'deep-learning') }}"
-                                            class="@if (Request::is('technology/deep-learning')) active @endif"> Deep Learning
-                                            →</a>
-                                        <p>Cutting edge deep learning models for natural language processing using LLMs
-                                        </p>
-                                    </div>
+                                    <a href="{{ route('technology', 'deep-learning') }}" class="@if (Request::is('technology/deep-learning')) active1 @endif">
+                                        <div class="para ">
+                                            <span> Deep Learning
+                                                →</span>
+                                            <p>Cutting edge deep learning models for natural language processing using LLMs.
+                                            </p>
+                                        </div>
+                                    </a>
 
-                                    <div class="para">
-                                        <a href="{{ route('technology', 'mlops') }}"
-                                            class="@if (Request::is('technology/mlops')) active @endif">MLOps →</a>
-                                        <p>We ensure reliable and scalable deployment of machine learning models</p>
-                                    </div>
+                                    <a href="{{ route('technology', 'mlops') }}" class="@if (Request::is('technology/mlops')) active1 @endif">
+                                        <div class="para">
+                                            <span>MLOps →</span>
+                                            <p>We ensure reliable and scalable deployment of machine learning models.</p>
+                                        </div>
+                                    </a>
 
-                                    <div class="para">
-                                        <a href="{{ route('technology', 'microservices-orchestration') }}"
-                                            class="@if (Request::is('technology/microservices-orchestration')) active @endif">Micro Services
-                                            Orchestration →</a>
-                                        <p>Optimizing microservices communication and coordination through orchestration
-                                            pattern</p>
-                                    </div>
+                                    <a href="{{ route('technology', 'microservices-orchestration') }}" class="@if (Request::is('technology/microservices-orchestration')) active @endif">
+                                        <div class="para">
+                                            <span>Micro Services
+                                                Orchestration →</span>
+                                            <p>Optimizing microservices communication and coordination through orchestration
+                                                pattern.</p>
+                                        </div>
+                                    </a>
 
                                     <div class="para d-none">
-                                        <a href="" class="@if (Request::is('technology/microservices-and-containers')) active @endif">
+                                        <a href="" class="@if (Request::is('technology/microservices-and-containers')) active1 @endif">
                                             Microservices and containers →</a>
                                         <p>Optimizing microservices communication and coordination through orchestration
-                                            pattern</p>
+                                            pattern.</p>
                                     </div>
                                 </div>
                             </div>
@@ -268,11 +277,11 @@
                                     <div class="head">
                                         <h1>Resources</h1>
                                         <p>You will find useful resources here for using Textofia in analysing your data
-                                            needs</p>
+                                            needs.</p>
                                     </div>
                                 </div>
                                 <div class="drop-para d-flex">
-                                    <div class="para first-para d-none">
+                                    <div class="para  d-none">
                                         <a href=""
                                             class="@if (Route::is('case-studies')) active @endif">Case studies
                                             →</a>
@@ -280,7 +289,7 @@
                                             laoreet.</p>
                                     </div>
 
-                                    <div class="para first-para">
+                                    <div class="para ">
                                         <a href="{{ route('blog') }}"
                                             class="@if (Route::is('blog')) active @endif">Blog →</a>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac arcu libero dui
@@ -350,9 +359,9 @@
                 <div class="col-md-3 space">
                     <h6>Solutions</h6>
                     <div class="links links3 d-flex flex-column">
-                        <a href="{{ route('solutions', 'legal-document-analytics') }}">Legal Document Analytics</a>
-                        <a href="{{ route('solutions', 'financial-data-analytics') }}">Financial Data Analytics</a>
-                        <a href="{{ route('solutions', 'news-media-intelligence') }}">News Media Intelligence</a>
+                        <a href="{{ route('solutions', 'document-information-extraction') }}">Document Information extraction</a>
+                        <a href="{{ route('solutions', 'customised-large-language-models') }}">Custom LLM Development</a>
+                        <a href="{{ route('solutions', 'intelligent-agents') }}">Intelligent Agents</a>
                     </div>
                 </div>
                 <div class="col-md-3">
