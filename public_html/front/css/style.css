@@ -4184,7 +4184,7 @@ hr {
     }
 
     .home-banner-btn {
-        margin-bottom: 20rem;
+        margin-bottom: 0;
     }
 
     /* .dropdown-mega-content .drop-para .para {
@@ -6635,6 +6635,7 @@ hr {
         font-size: 0.7rem;
         line-height: 1rem;
         width: auto;
+        text-align: center;
     }
     .banner-content .home-banner-head h1 {
         font-size: 1.4rem;
@@ -6788,7 +6789,10 @@ hr {
 
     .top-content-para {
         margin-left: 1rem;
-        line-height: 1rem;
+        line-height: 0.6rem;
+        text-align: center;
+        margin-top: 6px;
+        margin-bottom: 6px;
     }
 
     .single-career-content-body {
@@ -6889,7 +6893,11 @@ hr {
         width: 100%;
         display: flex;
         justify-content: center;
-        text-align: center;
+    }
+
+    .home-banner-img img {
+        margin-top: 0;
+        margin-bottom: 1.44375rem;
     }
 
     .home-banner-content .banner1 .note-paper {
@@ -6921,6 +6929,7 @@ hr {
     }
     .banner-content .home-banner-head h1 {
         padding: 0rem 0.5rem;
+        text-align: center;
     }
 
     .what-we-do .content {
@@ -7588,7 +7597,8 @@ hr {
         padding: 0;
     }
     .top-content-para a {
-        font-size: 0.9rem;
+        font-size: 0.7rem;
+        text-align: center;
     }
     .career-responsible-description .career-terms {
         /* padding-left: 0.5rem; */
@@ -7618,9 +7628,11 @@ hr {
     .banner-content .home-banner-head h1 {
         font-size: 1rem;
         line-height: 1.5rem;
+        text-align: center;
     }
     .banner-content .home-banner-para p {
         width: 100%;
+        text-align: center;
     }
     .what-we-do .content .head h2 {
         text-align: center;
@@ -8616,6 +8628,13 @@ hr {
 @media screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     #solutions {
         margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .solution-section .doc .img img,
+    .solution-section .fin .img img {
+        margin-top: 30px;
     }
 }
 
