@@ -31,6 +31,10 @@ class SecurityHeaders
             $response->headers->set('Expect-CT', 'enforce, max-age=30');
             $response->headers->set('Strict-Transport-Security', 'max-age=31536000; includeSubDomains');
             $response->headers->set('Permissions-Policy', 'autoplay=(self), camera=(), encrypted-media=(self), fullscreen=(), geolocation=(self), gyroscope=(self), magnetometer=(), microphone=(), midi=(), payment=(), sync-xhr=(self), usb=()');
+            $response->headers->set('Access-Control-Allow-Origin', '*');
+            $response->headers->set('Access-Control-Allow-Methods', 'GET,POST,PUT,PATCH,DELETE,OPTIONS');
+            $response->headers->set('Access-Control-Allow-Headers', 'Content-Type,Authorization,X-Requested-With,X-CSRF-Token');
+            
             $this->removeUnwantedHeaders($this->unwantedHeaders);
     
             return $response;
