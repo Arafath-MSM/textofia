@@ -26,6 +26,11 @@ class SecurityHeaders
             // Apply CSP header
             $response = $next($request);
             $response->headers->set('Content-Security-Policy', $cspHeader);
+            $response->headers->set('Referrer-Policy', 'no-referrer-when-downgrade');
+            $response->headers->set('X-XSS-Protection', '1; mode=block');
+            $response->headers->set('Expect-CT', 'enforce, max-age=30');
+            $response->headers->set('Strict-Transport-Security', 'max-age=31536000; includeSubDomains');
+            $response->headers->set('Permissions-Policy', 'autoplay=(self), camera=(), encrypted-media=(self), fullscreen=(), geolocation=(self), gyroscope=(self), magnetometer=(), microphone=(), midi=(), payment=(), sync-xhr=(self), usb=()');
             $this->removeUnwantedHeaders($this->unwantedHeaders);
     
             return $response;
