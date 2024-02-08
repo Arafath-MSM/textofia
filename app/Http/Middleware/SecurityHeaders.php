@@ -18,7 +18,7 @@ class SecurityHeaders
         if (!app()->environment('testing')) {
             $nonce = base64_encode(random_bytes(16)); // Generate a nonce for each request
             
-            $cspHeader = "object-src 'none'; script-src 'self' *.cloudflare.com *.googleapis.com fonts.gstatic.com https://www.googletagmanager.com 'nonce-$nonce'  'strict-dynamic' 'unsafe-inline'; base-uri 'self';";
+            $cspHeader = "object-src 'none'; script-src 'self' *.cloudflare.com *.googleapis.com fonts.gstatic.com https://www.googletagmanager.com 'nonce-$nonce'  'strict-dynamic' 'unsafe-inline'; frame-src 'self'; base-uri 'self';";
     
             // Pass the nonce to the view
             view()->share('nonce', $nonce);
@@ -34,7 +34,7 @@ class SecurityHeaders
             $response->headers->set('Access-Control-Allow-Origin', '*');
             $response->headers->set('Access-Control-Allow-Methods', 'GET,POST,PUT,PATCH,DELETE,OPTIONS');
             $response->headers->set('Access-Control-Allow-Headers', 'Content-Type,Authorization,X-Requested-With,X-CSRF-Token');
-            
+
             $this->removeUnwantedHeaders($this->unwantedHeaders);
     
             return $response;
