@@ -56,7 +56,7 @@
                     <h6>Saatviga Sudhahar</h6>
                     <span>Founder</span>
                     <p>
-                        <a target="_blank" href="https://www.linkedin.com/in/saatviga/" style="color:#0b0b0b;">
+                        <a target="_blank" href="https://www.linkedin.com/in/saatviga/" style="color:#0b0b0b;" aria-label="Read more about Saatviga Sudhahar">
                             <i class="fa-brands fa-linkedin" style="font-size:24px"></i>
                         </a>
                     </p>
@@ -71,7 +71,7 @@
                     <h6>Shaseevan Ganeshananthan</h6>
                     <span>Co-Founder & Director</span>
                     <p>
-                        <a target="_blank" href="https://www.linkedin.com/in/shaseevan/" style="color:#0b0b0b;">
+                        <a target="_blank" href="https://www.linkedin.com/in/shaseevan/" style="color:#0b0b0b;" aria-label="Read more about Shaseevan Ganeshananthan">
                             <i class="fa-brands fa-linkedin" style="font-size:24px"></i>
                         </a>
                     </p>
@@ -86,7 +86,7 @@
                     <h6>Sajeev Edward</h6>
                     <span>Marketing</span>
                     <p>
-                        <a target="_blank" href="https://www.linkedin.com/in/sajeevedward/" style="color:#0b0b0b;">
+                        <a target="_blank" href="https://www.linkedin.com/in/sajeevedward/" style="color:#0b0b0b;" aria-label="Read more about Sajeev Edward">
                             <i class="fa-brands fa-linkedin" style="font-size:24px"></i>
                         </a>
                     </p>
@@ -101,7 +101,7 @@
                     <h6>Premkumar Rajathurai</h6>
                     <span>Technology</span>
                     <p>
-                        <a target="_blank" href="https://www.linkedin.com/in/premkumarrajathurai/" style="color:#0b0b0b;">
+                        <a target="_blank" href="https://www.linkedin.com/in/premkumarrajathurai/" style="color:#0b0b0b;"  aria-label="Read more about Premkumar Rajathurai">
                             <i class="fa-brands fa-linkedin" style="font-size:24px"></i>
                         </a>
                     </p>
@@ -117,7 +117,7 @@
                     <h6>Arj Wignaraja</h6>
                     <span>Strategy Advisor</span>
                     <p>
-                        <a target="_blank" href="https://www.linkedin.com/in/arjwigs/" style="color:#0b0b0b;">
+                        <a target="_blank" href="https://www.linkedin.com/in/arjwigs/" style="color:#0b0b0b;" aria-label="Read more about Arj Wignaraja">
                             <i class="fa-brands fa-linkedin" style="font-size:24px"></i>
                         </a>
                     </p>

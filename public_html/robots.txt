@@ -1,2 +1,6 @@
 User-agent: *
-allow:
+Disallow: /login
+
+Allow: /
+
+Sitemap: https://textofia.com/sitemap.xml

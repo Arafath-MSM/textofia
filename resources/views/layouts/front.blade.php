@@ -4,6 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    @if(setting('app_env') == "production")
+    <meta name="robots" content="index">
+    @else
+    <meta name="robots" content="noindex">
+    @endif
     @include('front.includes.meta')
 
     <!-- favicons
@@ -12,13 +17,13 @@
 
     <!-- mobile specific metas
     ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1", user-scalable=1, maximum-scale=5>
     <meta name="google-site-verification" content="rSkF7luexco5BrQN0Xgc1InyfEOM1hggjd190Y0yLHU" />
 
     <!-- CSS
     ================================================== -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{ asset('front/css/style.css') }}?v=3.42">
+    <link rel="stylesheet" href="{{ asset('front/css/style.css') }}?v=3.43">
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -36,9 +41,9 @@
 
     <!-- Google tag (gtag.js) -->
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8GN4GPHXQH"></script>
+    <script nonce="{{ $nonce }}" async src="https://www.googletagmanager.com/gtag/js?id=G-8GN4GPHXQH"></script>
 
-    <script>
+    <script nonce="{{ $nonce }}">
 
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -103,12 +108,6 @@
                                             <p>We are passionate about the solutions we create.</p>
                                         </div>
                                     </a>
-
-                                    {{-- <div class="para d-none">
-                                        <a href="{{ route('news') }}"
-                                            class="@if (Route::is('news')) active @endif">News →</a>
-                                        <p>Generative AI for drafting contracts and faster contract reviews</p>
-                                    </div> --}}
 
                                     <a href="{{ route('team') }}" class="@if (Route::is('team')) active1 @endif">
                                         <div class="para">
@@ -255,13 +254,6 @@
                                                 pattern.</p>
                                         </div>
                                     </a>
-
-                                    <div class="para d-none">
-                                        <a href="" class="@if (Request::is('technology/microservices-and-containers')) active1 @endif">
-                                            Microservices and containers →</a>
-                                        <p>Optimizing microservices communication and coordination through orchestration
-                                            pattern.</p>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -282,8 +274,8 @@
                                 </div>
                                 <div class="drop-para d-flex">
                                     <div class="para  d-none">
-                                        <a href=""
-                                            class="@if (Route::is('case-studies')) active @endif">Case studies
+                                        <a href="#"
+                                            class="@if (Route::is('case-studies')) active @endif" rel="nofollow">Case studies
                                             →</a>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac arcu libero dui
                                             laoreet.</p>
@@ -291,19 +283,19 @@
 
                                     <div class="para ">
                                         <a href="{{ route('blog') }}"
-                                            class="@if (Route::is('blog')) active @endif">Blog →</a>
+                                            class="@if (Route::is('blog')) active @endif" rel="nofollow">Blog →</a>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac arcu libero dui
                                             laoreet.</p>
                                     </div>
 
                                     <div class="para">
-                                        <a href="#">Support →</a>
+                                        <a href="#" rel="nofollow">Support →</a>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac arcu libero dui
                                             laoreet.</p>
                                     </div>
 
                                     <div class="para">
-                                        <a href="#">API Docs →</a>
+                                        <a href="#" rel="nofollow">API Docs →</a>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac arcu libero dui
                                             laoreet.</p>
                                     </div>
@@ -430,18 +422,20 @@
     <!--footer section end-->
     <!-- Java Script
     ================================================== -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    <script nonce="{{ $nonce }}" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+    <script nonce="{{ $nonce }}" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    <script nonce="{{ $nonce }}" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="{{ asset('front/js/script.js') }}"></script>
+    @if (Route::is('home'))
+    <script nonce="{{ $nonce }}" src="{{ asset('front/js/script.js') }}"></script>
+    @endif
 
     {!! google_analytics_script() !!}
 
-    <script>
+    <script nonce="{{ $nonce }}">
         $('.d-newsletter-btn').on('click', function() {
             var email = $("input#nemail").val()
             if (isValidEmailAddress(email)) {
@@ -503,7 +497,7 @@
     </script>
 
     @if (Request::routeIs('careers*'))
-        <script>
+        <script nonce="{{ $nonce }}">
             $(document).ready(function() {
                 $(document).on('click', '#btn-more', function() {
                     var id = $(this).data('id');
