@@ -56,10 +56,3 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
   modal.style.display = "none";
 }
-
-// const myModal = document.getElementById("myModal");
-// const myInput = document.getElementById("myInput");
-
-// myModal.addEventListener("shown.bs.modal", () => {
-//     myInput.focus();
-// });

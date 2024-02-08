@@ -11,7 +11,7 @@
                             <h1>We craft best-in-class Text recognition and extraction algorithms</h1>
                         </div>
                         <div class="home-banner-para">
-                            <p>Textofia platform consists core text analytics, a digital content conversion pipeline and domain specific solutions with <br>generative AI.</p>
+                            <p>Textofia platform consists core text analytics, a digital content conversion pipeline and domain specific solutions with generative AI.</p>
                         </div>
                         <div class="home-banner-btn">
                             <a href="#what-we-offer"><button class="btn">Explore our products</button></a>
@@ -55,11 +55,11 @@ custom LLM development and intelligent agents using genertive AI.</p>
                     </div>
                 </div>
                 <div class="col-md-6">
-                        <img src="{{ asset('front/images/textofiadiagram animation.gif') }}" id="myImg" class="desktopview">
-                        <img src="{{ asset('front/images/textofiadiagram animation.gif') }}" class="mobileview" >
+                        <img src="{{ asset('front/images/textofiadiagram-animation.gif') }}" alt="platform solution" id="myImg" class="desktopview">
+                        <img src="{{ asset('front/images/textofiadiagram-animation.gif') }}" alt="platform solution" class="mobileview" >
                         <div id="myModal" class="modal">
                             <span class="close">&times;</span>
-                            <img class="modal-content" id="img01" src="{{ asset('front/images/textofiadiagram animation.gif') }}" >
+                            <img class="modal-content" id="img01" src="{{ asset('front/images/textofiadiagram-animation.gif') }}" >
                             <div id="caption"></div>
                         </div>
                     <div class="what-we-do-img d-none">
