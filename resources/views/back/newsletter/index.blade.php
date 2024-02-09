@@ -74,7 +74,7 @@
     <!-- /.content -->
 @endsection
 @section('javascript')
-    <script>
+    <script nonce="{{ $nonce }}">
         // show alert before deleting testimonial
         $('.show-alert').on('click', function(e) {
             e.preventDefault();
