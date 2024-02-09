@@ -226,28 +226,28 @@
     <!-- ./wrapper -->
 
     <!-- jQuery -->
-    <script src="{{ asset('plugins/jquery/jquery.min.js') }}"></script>
+    <script nonce="{{ $nonce }}" src="{{ asset('plugins/jquery/jquery.min.js') }}"></script>
     <!-- jQuery UI 1.11.4 -->
-    <script src="{{ asset('plugins/jquery-ui/jquery-ui.min.js') }}"></script>
+    <script nonce="{{ $nonce }}" src="{{ asset('plugins/jquery-ui/jquery-ui.min.js') }}"></script>
     <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
-    <script>
+    <script nonce="{{ $nonce }}">
         $.widget.bridge('uibutton', $.ui.button)
     </script>
     <!-- Bootstrap 4 -->
-    <script src="{{ asset('plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script nonce="{{ $nonce }}" src="{{ asset('plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 
     {{-- sweetalert2 --}}
-    <script src="{{ asset('plugins/sweetalert2/sweetalert2.min.js') }}"></script>
+    <script nonce="{{ $nonce }}" src="{{ asset('plugins/sweetalert2/sweetalert2.min.js') }}"></script>
     <!-- daterangepicker -->
     <!-- datetimepicker -->
-    <script type="text/javascript" src="{{ asset('plugins/datetimepicker/jquery.datetimepicker.full.js') }}"></script>
+    <script nonce="{{ $nonce }}" type="text/javascript" src="{{ asset('plugins/datetimepicker/jquery.datetimepicker.full.js') }}"></script>
 
     <!-- Summernote -->
-    <script src="{{ asset('plugins/summernote/summernote-bs4.min.js') }}"></script>
+    <script nonce="{{ $nonce }}" src="{{ asset('plugins/summernote/summernote-bs4.min.js') }}"></script>
 
     <!-- AdminLTE App -->
-    <script src="{{ asset('dist/js/adminlte.js') }}"></script>
-    <script>
+    <script nonce="{{ $nonce }}" src="{{ asset('dist/js/adminlte.js') }}"></script>
+    <script nonce="{{ $nonce }}">
         $(document).ready(function() {
             $('#summernote').summernote({ height: 400 });
             

@@ -92,7 +92,7 @@
     <!-- /.content -->
 @endsection
 @section('javascript')
-    <script>
+    <script nonce="{{ $nonce }}">
         // show alert before deleting post
         $('.show-alert').on('click', function(e) {
             e.preventDefault();
