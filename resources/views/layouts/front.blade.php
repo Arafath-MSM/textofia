@@ -17,7 +17,7 @@
 
     <!-- mobile specific metas
     ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1", user-scalable=1, maximum-scale=5>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1, maximum-scale=5">
     <meta name="google-site-verification" content="rSkF7luexco5BrQN0Xgc1InyfEOM1hggjd190Y0yLHU" />
 
     <!-- CSS
