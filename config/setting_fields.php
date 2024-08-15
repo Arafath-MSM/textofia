@@ -91,7 +91,7 @@ return [
                 ],
                 [
                     'type' => 'text',
-                    'name' => 'Bcc_email',
+                    'name' => 'bcc_email',
                     'label' => 'Bcc Email',
                     'class' => 'form-control',
                     'rules' => 'required',
