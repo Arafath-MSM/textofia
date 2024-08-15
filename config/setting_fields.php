@@ -89,6 +89,15 @@ return [
                     'placeholder' => '',
 
                 ],
+                [
+                    'type' => 'text',
+                    'name' => 'bcc_email',
+                    'label' => 'Bcc Email',
+                    'class' => 'form-control',
+                    'rules' => 'required',
+                    'placeholder' => '',
+
+                ],
                 // [
                 //     'type' => 'text',
                 //     'name' => 'mailchimp_api',

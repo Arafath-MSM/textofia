@@ -108,7 +108,7 @@ class ContactController extends Controller
                 $message->from(config('mail.from.address'), config('mail.from.name'));
                 $message->subject("An inquiry on ". config('app.name'));
                 $message->to(setting('contact_email'));
-                $message->bcc('sajeev@ontomatrix.com');
+                $message->bcc(setting('bcc_email'));
             });
         } catch (\Exception $e) {
             Log::info($e->getMessage());
