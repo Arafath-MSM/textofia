@@ -8816,3 +8816,7 @@ hr {
     gap: 2rem;
   }
 }
+
+.hide-robot {
+    display: none;
+}

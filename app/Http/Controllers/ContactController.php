@@ -84,14 +84,14 @@ class ContactController extends Controller
         //
     }
     public function sendmail(Request $request)
-    {       
+    {     
+        $request->merge(['myaddress' => trim($request->input('myaddress'))]);  
         $request->validate([
-            'fname' => 'required',
-            'lname' => 'required',
             'fname' => 'required|alpha',
             'lname' => 'required|alpha',
             'email' => 'required|email',
             'description' => 'required|min:5',
+            'myaddress' => 'prohibited',
         ],[
             'fname.required' => 'The first name field is required.',
             'lname.required' => 'The last name field is required.',
@@ -99,6 +99,7 @@ class ContactController extends Controller
             'lname.alpha' => 'The last name must only contain letters.',
             'description.required' => 'The description field is required.',
             'description.min' => 'The description must be at least 5 characters in length.',
+            'myaddress.prohibited' => 'Invalid submission detected.',
         ]);
 
         $data = ['fname' => $request->fname, 'lname' => $request->lname,'email' => $request->email,'solution' => $request->solution,'description' => $request->description];
@@ -113,7 +114,6 @@ class ContactController extends Controller
         } catch (\Exception $e) {
             Log::info($e->getMessage());
         }
-
 
         try {
             Mail::send('mail.contact_mail_user', $data, function ($message) use ($data) {
