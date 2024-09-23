@@ -65,6 +65,7 @@
                                 <textarea id="description" name="description" placeholder="Description" value="{{ old('description') }}" required></textarea>
                             </div>
                         </div>
+                        <input type="text" name="myaddress" id="myaddress" class="hide-robot" />
                         <div class="contact-us-btn">
                             <button>Get in touch</button>
                         </div>
