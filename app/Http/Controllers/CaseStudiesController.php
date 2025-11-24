@@ -8,7 +8,6 @@ use Illuminate\Http\Request;
 
 class CaseStudiesController extends Controller
 {
-
     
     public function __construct()
     {
