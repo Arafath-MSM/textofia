@@ -9,6 +9,7 @@ use Illuminate\Http\Request;
 class CaseStudiesController extends Controller
 {
 
+    
     public function __construct()
     {
         // $this->middleware('authResource:case_study')->except('index', 'create', 'store');
