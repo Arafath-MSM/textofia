@@ -19,6 +19,7 @@ class PostObserver
      * @param  \App\Models\Post  $post
      * @return void
      */
+    
     public function created(Post $post)
     {
         $this->saveCategoryAndTag($post);
