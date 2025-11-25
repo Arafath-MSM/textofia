@@ -12,6 +12,7 @@ class PostObserver
     {
         $this->request = request();
     }
+    
     /**
      * Handle the Post "created" event.
      *
