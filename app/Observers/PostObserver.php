@@ -24,6 +24,7 @@ class PostObserver
         $this->saveCategoryAndTag($post);
     }
 
+    
     /**
      * Handle the Post "updated" event.
      *
